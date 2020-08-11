@@ -1,0 +1,56 @@
+body {
+    background-color: #f6ff00;
+
+}
+
+#para {
+    color: #Ff0000;
+    font-weight: bolder;
+    padding-left: 700px;
+    padding-right: 700px;
+}
+
+
+
+.pictures {
+    display: flex;
+    flex-direction: column;
+}
+
+#grandma {
+    border-radius: 50%;
+    border: 10px solid #ff00d3;
+}
+
+/*NavBar*/
+
+#navbar {
+    list-style-type: none;
+    overflow: hidden;
+
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li.nav {
+    float: right;
+    font-size: 15px;
+}
+
+li.nav a {
+    display: block;
+    color: cyan;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: garamond;
+}
+
+li.nav a:hover {
+    background-image: url("https://cdn.glitch.com/0e90a0e1-1354-425f-a902-bb5426592756%2Fdontlookmompls%20(2).png?v=1597189195032");
+    width: 500px;
+    height: 100px;
+}
